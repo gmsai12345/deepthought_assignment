@@ -11,8 +11,11 @@ export default function () {
   return (
     <div>
       <p className="task">demo task</p>
-      <figure data-title="Task Heading 1">
+      <figure data-title="Task Heading 1" width="461" height="320">
         <figcaption>
+          <h1>Task Heading 1</h1>
+        </figcaption>
+        <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -21,8 +24,9 @@ export default function () {
           remaining essentially unchanged. It was popularised in the 1960s with
           the release of Letraset sheets containing Lorem Ipsum passages, and
           more recently with desktop p
-        </figcaption>
-        2
+        </p>
+        <br />
+        <KeyboardArrowDownIcon />
       </figure>
       <figure data-title="">
         <h1>Task Heading 2</h1>
@@ -82,6 +86,8 @@ export default function () {
         <p>+ New thread</p>
         <br />
         <SaveIcon />
+        <br />
+        <KeyboardArrowDownIcon />
       </figure>
       3
       <figure data-title="Butter Cookies!">
@@ -89,6 +95,8 @@ export default function () {
         <figcaption>
           <input type="text" id="ip1" />
         </figcaption>
+        <br />
+        <KeyboardArrowDownIcon />
       </figure>
       4
       <figure data-title="Butter Cookies!">
@@ -100,6 +108,21 @@ export default function () {
             height="612"
           />
         </figcaption>
+        <br />
+        <KeyboardArrowDownIcon />
+      </figure>
+      5
+      <figure data-title="Butter Cookies!">
+        <h1>Task Heading 5</h1>
+        <figcaption>
+          <embed
+            src="https://giphy.com/gifs/cbc-retro-throwback-old-school-IzjhI7ggjDlEnMxZMu"
+            width="452"
+            height="612"
+          />
+        </figcaption>
+        <br />
+        <KeyboardArrowDownIcon />
       </figure>
       5
       <figure data-title="">
@@ -155,16 +178,19 @@ export default function () {
         <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
           <a href="/media/cc0-audio/t-rex-roar.mp3">Download audio</a>
         </audio>
+        <br />
+        <KeyboardArrowDownIcon />
       </figure>
       7
       <figure data-title="Butter Cookies!">
         <figcaption>Task Heading 8</figcaption>
-        video controls width="250">
         <iframe
           src="https://www.youtube.com/embed/s8H0Sx7jy7c"
-          width="100px"
-          height="100px"
+          width="400px"
+          height="400px"
         />
+        <br />
+        <KeyboardArrowDownIcon />
       </figure>
     </div>
   );
